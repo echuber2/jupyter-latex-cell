@@ -5,9 +5,9 @@ On JupyterLab, sometimes people get a server timeout or other bug when trying to
 
 ## Usage
 
-Paste the text from one of the scripts into an empty cell *at the end of your notebook*. (The script may spam in your notebook.) You should run all cells before the export cell runs.
+Paste the text from one of the scripts into an empty cell *at the end of your notebook*. (The script may spam in your notebook.) You should run all cells before the export cell runs. You need to change the variables at the top of the cell code to specify the correct notebook name, as well as to unlock the rest of the cell code. The lock was meant to prevent the export from running every time you incidentally run the cell among the other notebook cells.
 
-It's also possible to past the cell into a different notebook in the same directory to prevent this from cluttering the end of your real notebook.
+It's also possible to paste the cell into a different notebook in the same directory to prevent this from cluttering the end of your real notebook.
 
 ## Version differences
 
