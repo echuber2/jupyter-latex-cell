@@ -1,5 +1,5 @@
 # jupyter-latex-cell
-A cell you can run in a Jupyter notebook to help with latex compilation.
+A cell you can run in a Jupyter notebook to help with latex compilation for PDF export.
 
 On JupyterLab, sometimes people get a server timeout or other bug when trying to export PDFs. Instead, you can add this as a cell at the end of your notebook and run it to compile the PDF.
 
